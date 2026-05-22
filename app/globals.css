@@ -95,6 +95,19 @@ body  {
   animation: petalFall var(--dur) var(--delay) ease-in infinite;
 }
 
+/* ── Details cards grid ─────────────────────────── */
+.details-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 40px;
+}
+@media (min-width: 600px) {
+  .details-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 /* ── Hero photo ──────────────────────────────────── */
 .hero-photo {
   border-radius: 50%;

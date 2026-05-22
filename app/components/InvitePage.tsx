@@ -447,15 +447,7 @@ export default function InvitePage({
             </div>
 
             <Reveal delay={2}>
-              <div
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  justifyContent: "center",
-                  gap: 16,
-                  marginBottom: 40,
-                }}
-              >
+              <div className="details-cards">
                 {[
                   {
                     Icon: IconCalendar,
@@ -489,8 +481,6 @@ export default function InvitePage({
                       border: "1px solid var(--border)",
                       borderRadius: 24,
                       padding: 28,
-                      width: 180,
-                      flexShrink: 0,
                       display: "flex",
                       flexDirection: "column",
                       alignItems: "center",
