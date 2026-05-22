@@ -89,7 +89,7 @@ body  {
 .petal {
   position: fixed;
   pointer-events: none;
-  z-index: 1;
+  z-index: 9999;
   will-change: transform, opacity;
   border-radius: 60% 0 60% 0;
   animation: petalFall var(--dur) var(--delay) ease-in infinite;
