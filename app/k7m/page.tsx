@@ -13,7 +13,7 @@ export default function Page() {
     <InvitePage
       dateDisplay="6 червня 2026"
       timeDisplay="16:00"
-      target="2026-06-06T16:00:00"
+      target="2026-06-06T16:00:00+03:00"
       momText={TEXT}
     />
   );
